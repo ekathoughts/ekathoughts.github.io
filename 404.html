@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" >
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Eka Thoughts - Creating clean &amp; elegant mobile apps, web apps</title>
+	<meta name="description" content="Eka Thoughts, based at India, expertise web application, Android & iOS mobile application and cloud based web application development">
+	<meta name="keywords" content="java, javascript, angularjs, bootstrap, nodejs, web application, server client, android, ios, iphone, mobile application, cloud, app engine, amazon aws, india">
+	<meta name="author" content="Eka Thoughts pvt ltd">
+	<![if !IEMobile]>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<!--meta name="viewport" content="width=device-width; initial-scale=1.0"-->
+	<![endif]>
+
+	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'> -->
+	<!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic|Lato:300,400,300italic,400italic|Roboto:300,100,100italic,300italic,400,400italic|Open+Sans:300italic,400italic,300,400|Open+Sans+Condensed:300,300italic' rel='stylesheet' type='text/css'> -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300,100,100italic,300italic,400,400italic' rel='stylesheet' type='text/css'>
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/normalize-opentype.css"> -->
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/classlist/2014.01.31/classList.min.js"></script>
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header header-fixed clearfix" id="top-nav">
+			<!-- <h3 class="text-muted pull-left">
+				<img src="img/et-logo.png" id="et-logo">
+			</h3> -->
+			<ul class="nav nav-pills pull-right" >
+				<li class="active_"><a href="/">Home</a></li>
+				<li><a href="/#work">Our work</a></li>
+				<li><a href="/#about">About</a></li>
+				<li><a href="/#contact">Contact</a></li>
+			</ul>
+		</div>
+
+		<div class="row section section-404">
+			<div class="col-sm-12">
+				<h3 class="text-center">404</h3>
+				<p class="lead text-center">Sorry, we could not find anything with that address. Goto <a href="/">Home page</a></p>
+			</div>
+		</div>
+
+		<footer>
+			<!-- <p class="pull-right"><a href="#">Back to top</a></p> -->
+			<p class="text-center"><small>&copy; 2014 Eka Thoughts pvt ltd</small></p>
+			<!-- <p>&copy; 2014 Eka Thoughts pvt ltd &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> -->
+		</footer>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/headroomjs/0.7.0/headroom.min.js"></script>
+	<!-- <script src="js/app.js"></script> -->
+	<script type="text/javascript">
+	'use strict';
+		// Function.prototype.bind Polyfill
+		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind#Compatibility
+		Function.prototype.bind||(Function.prototype.bind=function(b){if("function"!==typeof this)throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable");var d=Array.prototype.slice.call(arguments,1),e=this,a=function(){},c=function(){return e.apply(this instanceof a&&b?this:b,d.concat(Array.prototype.slice.call(arguments)))};a.prototype=this.prototype;c.prototype=new a;return c});
+
+		/*! &copy; 2014 Eka Thoughts */
+		// Headroom
+		var topNav = document.querySelector("#top-nav");
+		new Headroom(topNav).init();
+	</script>
+</body>
+</html>

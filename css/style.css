@@ -121,6 +121,10 @@ a {
 .descr {
   line-height: 1.7em;
 }
+.section-404 {
+	margin: 100px;
+	min-height: 200px;
+}
 footer {
   margin: 20px 0 10px 0;
   color: #aaa;
