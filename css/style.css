@@ -22,7 +22,7 @@ body {
   font-family: 'Roboto', "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow-y: scroll; /* required not to cause reflow when .ngx-ui-masked applied to html */
   overflow-y: auto\9; /* IE hack: for IE, overflow-y should be auto ('scroll' causing select2 ajax options list position issue)*/
-
+  font-size: 17px;
    color: #555;
 }
 .container {
